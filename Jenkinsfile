@@ -9,8 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                // Clone the repository
-                git branch: 'master', url: 'https://github.com/rajan-shukla/django-notes-app'
+                git branch: 'master', url: 'https://github.com/rajan-shukla/two-tier-flask-app'
             }
         }
 
